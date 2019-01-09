@@ -875,6 +875,12 @@ export const adConfig = {
     prefetch: 'https://ap.lijit.com/www/sovrn_amp/sovrn_ads.js',
   },
 
+  'spotim': {
+    preconnect: [
+      'https://recirculation.spot.im',
+    ],
+  },
+
   'spotx': {
     preconnect: 'https://js.spotx.tv',
     renderStartImplemented: true,

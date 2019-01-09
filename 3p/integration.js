@@ -220,6 +220,7 @@ import {smi2} from '../ads/smi2';
 import {sogouad} from '../ads/sogouad';
 import {sortable} from '../ads/sortable';
 import {sovrn} from '../ads/sovrn';
+import {spotim} from '../ads/spotim';
 import {spotx} from '../ads/spotx';
 import {sunmedia} from '../ads/sunmedia';
 import {swoop} from '../ads/swoop';
@@ -277,6 +278,7 @@ const AMP_EMBED_ALLOWED = {
   pubexchange: true,
   smartclip: true,
   smi2: true,
+  spotim: true,
   taboola: true,
   zen: true,
   zergnet: true,
@@ -449,6 +451,7 @@ register('smi2', smi2);
 register('sogouad', sogouad);
 register('sortable', sortable);
 register('sovrn', sovrn);
+register('spotim', spotim);
 register('spotx', spotx);
 register('sunmedia', sunmedia);
 register('swoop', swoop);
