@@ -1,0 +1,11 @@
+
+import {loadScript, validateData} from '../3p/3p';
+
+/**
+ * @param {!Window} global
+ * @param {!Object} data
+ */
+export function spotim(global, data) {
+  validateData(data, ['spotId']);
+  loadScript(global, `http://localhost:6050/spot/${data.spotId}/amp`);
+}
