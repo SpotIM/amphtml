@@ -22,6 +22,7 @@ limitations under the License.
 <amp-embed width="100" height="100"
     type="spotim"
     data-spot-id="publisher-id"
+    data-post-id="article-id"
     layout="responsive">
 </amp-embed>
 ```
@@ -33,7 +34,4 @@ For configuration details, please contact Spot.IM's Account Management Team.
 ### Required parameters
 
 - `data-spot-id`: Publisher Id Provided by Account Management Team.
-
-### Optional parameters
-
 -  `data-post-id`: Article Id
