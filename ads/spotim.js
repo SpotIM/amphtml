@@ -7,5 +7,6 @@ import {loadScript, validateData} from '../3p/3p';
  */
 export function spotim(global, data) {
   validateData(data, ['spotId']);
-  loadScript(global, `http://localhost:6050/spot/${data.spotId}/amp`);
+  loadScript(global, 'http://localhost:6050/amp-ad-launcher/');
+  global.__SPOTIM_AMP__ = {spotId: data.spotId, postId: data.postId};
 }
