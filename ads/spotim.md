@@ -19,7 +19,7 @@ limitations under the License.
 ## Example
 
 ```html
-<amp-embed width="100" height="100"
+<amp-embed width="100" height="275"
     type="spotim"
     data-spot-id="publisher-id"
     data-post-id="article-id"
@@ -34,4 +34,4 @@ For configuration details, please contact Spot.IM's Account Management Team.
 ### Required parameters
 
 - `data-spot-id`: Publisher Id Provided by Account Management Team.
--  `data-post-id`: Article Id
+- `data-post-id`: Article Id
